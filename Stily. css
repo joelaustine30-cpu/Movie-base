@@ -1,0 +1,64 @@
+/* MOVIE DETAILS */
+
+.details-box {
+    display: flex;
+    gap: 40px;
+
+    max-width: 1000px;
+
+    background: #151515;
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+.details-poster {
+    min-width: 280px;
+    height: 380px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #333, #111);
+
+    font-size: 70px;
+}
+
+.details-info {
+    max-width: 600px;
+}
+
+.details-info h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.movie-meta {
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.details-info p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 700px) {
+
+    .details-box {
+        flex-direction: column;
+    }
+
+    .details-poster {
+        min-width: 100%;
+        height:100%;
+        object-fit:cover
+        display:block
+    }
+
+    .details-info h1 {
+        font-size: 30px;
+    }
+}
