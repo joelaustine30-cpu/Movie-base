@@ -57,8 +57,7 @@
         object-fit:cover
         display:block
     }
-
-    .details-info h1 {
-        font-size: 30px;
+.movie-link{
+    .colour:blue;
+        text-decoration:bubble
     }
-}
